@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B46F7717BFD8C3A806D26D /* Pods_AnnexCloudRNRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D1A04995726729677A54CA /* Pods_AnnexCloudRNRTests.framework */; };
+		727FE0E520996DD3006730F9 /* AnnexCloudRNR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 727FE0DB20996DD2006730F9 /* AnnexCloudRNR.framework */; };
+		727FE0EA20996DD3006730F9 /* AnnexCloudRNRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727FE0E920996DD3006730F9 /* AnnexCloudRNRTests.swift */; };
+		727FE0EC20996DD3006730F9 /* AnnexCloudRNR.h in Headers */ = {isa = PBXBuildFile; fileRef = 727FE0DE20996DD2006730F9 /* AnnexCloudRNR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		727FE0F620996E8C006730F9 /* AnnexCloudRNRProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727FE0F520996E8C006730F9 /* AnnexCloudRNRProvider.swift */; };
+		727FE0F7209986FC006730F9 /* AnnexCloudRNRProvider.swift in Headers */ = {isa = PBXBuildFile; fileRef = 727FE0F520996E8C006730F9 /* AnnexCloudRNRProvider.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		727FE13320998F1B006730F9 /* SeeAllMyReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727FE13220998F1B006730F9 /* SeeAllMyReviewViewController.swift */; };
+		727FE13520999037006730F9 /* SeeAllMyReview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727FE13420999037006730F9 /* SeeAllMyReview.storyboard */; };
+		9909EE726EF7D46A3493BD0B /* Pods_AnnexCloudRNR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC645433A08F2634B9FFA20 /* Pods_AnnexCloudRNR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		727FE0E620996DD3006730F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 727FE0D220996DD2006730F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 727FE0DA20996DD2006730F9;
+			remoteInfo = AnnexCloudRNR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EC645433A08F2634B9FFA20 /* Pods_AnnexCloudRNR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnnexCloudRNR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5E896922840A9870629B18 /* Pods-AnnexCloudRNR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnnexCloudRNR.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnnexCloudRNR/Pods-AnnexCloudRNR.release.xcconfig"; sourceTree = "<group>"; };
+		727FE0DB20996DD2006730F9 /* AnnexCloudRNR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnnexCloudRNR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		727FE0DE20996DD2006730F9 /* AnnexCloudRNR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnexCloudRNR.h; sourceTree = "<group>"; };
+		727FE0DF20996DD2006730F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727FE0E420996DD3006730F9 /* AnnexCloudRNRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnnexCloudRNRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		727FE0E920996DD3006730F9 /* AnnexCloudRNRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnexCloudRNRTests.swift; sourceTree = "<group>"; };
+		727FE0EB20996DD3006730F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727FE0F520996E8C006730F9 /* AnnexCloudRNRProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnexCloudRNRProvider.swift; sourceTree = "<group>"; };
+		727FE13220998F1B006730F9 /* SeeAllMyReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllMyReviewViewController.swift; sourceTree = "<group>"; };
+		727FE13420999037006730F9 /* SeeAllMyReview.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SeeAllMyReview.storyboard; sourceTree = "<group>"; };
+		727FE137209993DD006730F9 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D1A04995726729677A54CA /* Pods_AnnexCloudRNRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnnexCloudRNRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7449162095A6C9FF5E4903 /* Pods-AnnexCloudRNRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnnexCloudRNRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnnexCloudRNRTests/Pods-AnnexCloudRNRTests.release.xcconfig"; sourceTree = "<group>"; };
+		D0DD8C7F4F54231A25C82838 /* Pods-AnnexCloudRNR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnnexCloudRNR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnnexCloudRNR/Pods-AnnexCloudRNR.debug.xcconfig"; sourceTree = "<group>"; };
+		DD96DB3DC75F1965BA877BD0 /* Pods-AnnexCloudRNRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnnexCloudRNRTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnnexCloudRNRTests/Pods-AnnexCloudRNRTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		727FE0D720996DD2006730F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9909EE726EF7D46A3493BD0B /* Pods_AnnexCloudRNR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727FE0E120996DD3006730F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727FE0E520996DD3006730F9 /* AnnexCloudRNR.framework in Frameworks */,
+				32B46F7717BFD8C3A806D26D /* Pods_AnnexCloudRNRTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3411521BF3CBDA890A5D6283 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD8C7F4F54231A25C82838 /* Pods-AnnexCloudRNR.debug.xcconfig */,
+				4E5E896922840A9870629B18 /* Pods-AnnexCloudRNR.release.xcconfig */,
+				DD96DB3DC75F1965BA877BD0 /* Pods-AnnexCloudRNRTests.debug.xcconfig */,
+				9C7449162095A6C9FF5E4903 /* Pods-AnnexCloudRNRTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3CD585963BFDE60AC915C35D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				727FE137209993DD006730F9 /* Alamofire.framework */,
+				2EC645433A08F2634B9FFA20 /* Pods_AnnexCloudRNR.framework */,
+				85D1A04995726729677A54CA /* Pods_AnnexCloudRNRTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		727FE0D120996DD2006730F9 = {
+			isa = PBXGroup;
+			children = (
+				727FE0DD20996DD2006730F9 /* AnnexCloudRNR */,
+				727FE0E820996DD3006730F9 /* AnnexCloudRNRTests */,
+				727FE0DC20996DD2006730F9 /* Products */,
+				3411521BF3CBDA890A5D6283 /* Pods */,
+				3CD585963BFDE60AC915C35D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		727FE0DC20996DD2006730F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				727FE0DB20996DD2006730F9 /* AnnexCloudRNR.framework */,
+				727FE0E420996DD3006730F9 /* AnnexCloudRNRTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		727FE0DD20996DD2006730F9 /* AnnexCloudRNR */ = {
+			isa = PBXGroup;
+			children = (
+				727FE0DE20996DD2006730F9 /* AnnexCloudRNR.h */,
+				727FE0F520996E8C006730F9 /* AnnexCloudRNRProvider.swift */,
+				727FE13220998F1B006730F9 /* SeeAllMyReviewViewController.swift */,
+				727FE13420999037006730F9 /* SeeAllMyReview.storyboard */,
+				727FE0DF20996DD2006730F9 /* Info.plist */,
+			);
+			path = AnnexCloudRNR;
+			sourceTree = "<group>";
+		};
+		727FE0E820996DD3006730F9 /* AnnexCloudRNRTests */ = {
+			isa = PBXGroup;
+			children = (
+				727FE0E920996DD3006730F9 /* AnnexCloudRNRTests.swift */,
+				727FE0EB20996DD3006730F9 /* Info.plist */,
+			);
+			path = AnnexCloudRNRTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		727FE0D820996DD2006730F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727FE0EC20996DD3006730F9 /* AnnexCloudRNR.h in Headers */,
+				727FE0F7209986FC006730F9 /* AnnexCloudRNRProvider.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		727FE0DA20996DD2006730F9 /* AnnexCloudRNR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727FE0EF20996DD3006730F9 /* Build configuration list for PBXNativeTarget "AnnexCloudRNR" */;
+			buildPhases = (
+				D60630600C16E600D4C1AD1E /* [CP] Check Pods Manifest.lock */,
+				727FE0D620996DD2006730F9 /* Sources */,
+				727FE0D720996DD2006730F9 /* Frameworks */,
+				727FE0D820996DD2006730F9 /* Headers */,
+				727FE0D920996DD2006730F9 /* Resources */,
+				F2C20EF713C260BE4A1DD8C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnnexCloudRNR;
+			productName = AnnexCloudRNR;
+			productReference = 727FE0DB20996DD2006730F9 /* AnnexCloudRNR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		727FE0E320996DD3006730F9 /* AnnexCloudRNRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727FE0F220996DD3006730F9 /* Build configuration list for PBXNativeTarget "AnnexCloudRNRTests" */;
+			buildPhases = (
+				FE89E1EDF70FB4A149D1BCD3 /* [CP] Check Pods Manifest.lock */,
+				727FE0E020996DD3006730F9 /* Sources */,
+				727FE0E120996DD3006730F9 /* Frameworks */,
+				727FE0E220996DD3006730F9 /* Resources */,
+				6E20B94918EBA6B9DBD5FA76 /* [CP] Embed Pods Frameworks */,
+				3BB1FD0FB1C049B9B7ED68F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				727FE0E720996DD3006730F9 /* PBXTargetDependency */,
+			);
+			name = AnnexCloudRNRTests;
+			productName = AnnexCloudRNRTests;
+			productReference = 727FE0E420996DD3006730F9 /* AnnexCloudRNRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		727FE0D220996DD2006730F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MacMini3;
+				TargetAttributes = {
+					727FE0DA20996DD2006730F9 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					727FE0E320996DD3006730F9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 727FE0D520996DD2006730F9 /* Build configuration list for PBXProject "AnnexCloudRNR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 727FE0D120996DD2006730F9;
+			productRefGroup = 727FE0DC20996DD2006730F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				727FE0DA20996DD2006730F9 /* AnnexCloudRNR */,
+				727FE0E320996DD3006730F9 /* AnnexCloudRNRTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		727FE0D920996DD2006730F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727FE13520999037006730F9 /* SeeAllMyReview.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727FE0E220996DD3006730F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BB1FD0FB1C049B9B7ED68F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnnexCloudRNRTests/Pods-AnnexCloudRNRTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E20B94918EBA6B9DBD5FA76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AnnexCloudRNRTests/Pods-AnnexCloudRNRTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnnexCloudRNRTests/Pods-AnnexCloudRNRTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D60630600C16E600D4C1AD1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnnexCloudRNR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C20EF713C260BE4A1DD8C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnnexCloudRNR/Pods-AnnexCloudRNR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE89E1EDF70FB4A149D1BCD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnnexCloudRNRTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		727FE0D620996DD2006730F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727FE13320998F1B006730F9 /* SeeAllMyReviewViewController.swift in Sources */,
+				727FE0F620996E8C006730F9 /* AnnexCloudRNRProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727FE0E020996DD3006730F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727FE0EA20996DD3006730F9 /* AnnexCloudRNRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		727FE0E720996DD3006730F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 727FE0DA20996DD2006730F9 /* AnnexCloudRNR */;
+			targetProxy = 727FE0E620996DD3006730F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		727FE0ED20996DD3006730F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		727FE0EE20996DD3006730F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		727FE0F020996DD3006730F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0DD8C7F4F54231A25C82838 /* Pods-AnnexCloudRNR.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				INFOPLIST_FILE = AnnexCloudRNR/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnnexCloud.AnnexCloudRNR;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		727FE0F120996DD3006730F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5E896922840A9870629B18 /* Pods-AnnexCloudRNR.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				INFOPLIST_FILE = AnnexCloudRNR/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnnexCloud.AnnexCloudRNR;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		727FE0F320996DD3006730F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD96DB3DC75F1965BA877BD0 /* Pods-AnnexCloudRNRTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnnexCloudRNRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnnexCloud.AnnexCloudRNRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		727FE0F420996DD3006730F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7449162095A6C9FF5E4903 /* Pods-AnnexCloudRNRTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnnexCloudRNRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnnexCloud.AnnexCloudRNRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		727FE0D520996DD2006730F9 /* Build configuration list for PBXProject "AnnexCloudRNR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727FE0ED20996DD3006730F9 /* Debug */,
+				727FE0EE20996DD3006730F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727FE0EF20996DD3006730F9 /* Build configuration list for PBXNativeTarget "AnnexCloudRNR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727FE0F020996DD3006730F9 /* Debug */,
+				727FE0F120996DD3006730F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727FE0F220996DD3006730F9 /* Build configuration list for PBXNativeTarget "AnnexCloudRNRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727FE0F320996DD3006730F9 /* Debug */,
+				727FE0F420996DD3006730F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 727FE0D220996DD2006730F9 /* Project object */;
+}
